@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #BB8FCE;
     color: white;
     padding: 30px 0;
     text-align: center;
@@ -36,13 +36,13 @@ section {
 
 h2 {
     color: #333;
-    border-bottom: 2px solid #4CAF50;
+    border-bottom: 2px solid #BB8FCE;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
 
 h3 {
-    color: #4CAF50;
+    color: #BB8FCE;
 }
 
 ul {
@@ -59,7 +59,7 @@ ul li {
 }
 
 a {
-    color: #4CAF50;
+    color: #BB8FCE;
     text-decoration: none;
 }
 
