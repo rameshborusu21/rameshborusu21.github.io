@@ -1,10 +1,15 @@
 /* General Styles */
-body {
-    font-family: 'Arial', sans-serif;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
     background-color: #f4f4f9;
     color: #333;
+    line-height: 1.6;
 }
 
 .container {
@@ -15,47 +20,57 @@ body {
 header {
     background-color: #21618c;
     color: white;
-    padding: 30px 0;
+    padding: 50px 0;
     text-align: center;
 }
 
 header h1 {
-    margin: 0;
+    font-weight: 600;
     font-size: 2.5em;
 }
 
-header p {
-    margin: 10px 0;
+header .subtitle {
     font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 10px;
 }
 
 /* Section Styles */
 section {
-    padding: 10px;
+    padding: 50px 0;
 }
 
 h2 {
     color: #333;
-    border-bottom: 2px solid #21618c;
-    padding-bottom: 5px;
+    font-size: 1.8em;
+    font-weight: 600;
     margin-bottom: 5px;
+    border-bottom: 3px solid #21618c;
+    padding-bottom: 5px;
 }
 
 h3 {
     color: #21618c;
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
 ul {
     list-style-type: none;
-    padding: 0;
+    padding-left: 20px;
 }
 
 ul li {
     margin: 5px 0;
 }
 
-.job {
-    margin-bottom: 20px;
+.job p {
+    color: #555;
+    font-style: italic;
+}
+
+.job ul {
+    padding-left: 40px;
 }
 
 a {
@@ -71,10 +86,10 @@ a:hover {
 footer {
     background-color: #333;
     color: white;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
 footer p {
-    margin: 0;
+    font-size: 1em;
 }
